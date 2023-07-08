@@ -113,7 +113,7 @@ PARTITION BY ParcelID,
 			) AS row_num
 FROM NashvilleHousing )
 DELETE FROM ROWS_DUPLICATES
-WHERE row_num > 1
+WHERE row_num > 1;
 
 ---------------------------------------------------------------------------------------------------------
 
