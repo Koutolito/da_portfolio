@@ -1,1 +1,7 @@
 This branch was created for the Data Analysis series using Tableau !!
+Tableau installation :
+1- https://www.tableau.com/fr-fr/products/public/download //Ce lien peut par contre changer dans le futur
+For visualizing Tableau graphics : 
+1- https://public.tableau.com/app/profile/jean.louis.manga/viz/TotalVenteParGenre/Feuille1?publish=yes
+2- https://public.tableau.com/app/profile/jean.louis.manga/viz/JP-EU-GlobalSalesPerYear/JP-EU-GlobalSalesPerYear?publish=yes
+3- https://public.tableau.com/app/profile/jean.louis.manga/viz/MyFirstDashboardOnTableau_16890093526610/MyFirstDashboardOnTableau?publish=yes
