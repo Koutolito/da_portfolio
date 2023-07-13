@@ -5,3 +5,8 @@ For visualizing Tableau graphics :
 1- https://public.tableau.com/app/profile/jean.louis.manga/viz/TotalVenteParGenre/Feuille1?publish=yes
 2- https://public.tableau.com/app/profile/jean.louis.manga/viz/JP-EU-GlobalSalesPerYear/JP-EU-GlobalSalesPerYear?publish=yes
 3- https://public.tableau.com/app/profile/jean.louis.manga/viz/MyFirstDashboardOnTableau_16890093526610/MyFirstDashboardOnTableau?publish=yes
+Créer des classes (Bins) : c'est une fonctionnalité qui permet de classer des éléments en un groupe de valeurs.
+N'est applicables qu'à des valeurs de types numériques!
+Ex : Quand on a des valeurs de 1 à 100 , les classer par 10 signifierait qu'on va avoir nos éléments 
+classer dans 10 groupes comportant bien évidemment 10 éléments chacun .
+https://public.tableau.com/app/profile/jean.louis.manga/viz/TotalVenteParGenre/Bin_Et_ChampsCalculs?publish=yes
