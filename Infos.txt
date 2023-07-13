@@ -10,3 +10,4 @@ N'est applicables qu'à des valeurs de types numériques!
 Ex : Quand on a des valeurs de 1 à 100 , les classer par 10 signifierait qu'on va avoir nos éléments 
 classer dans 10 groupes comportant bien évidemment 10 éléments chacun .
 https://public.tableau.com/app/profile/jean.louis.manga/viz/TotalVenteParGenre/Bin_Et_ChampsCalculs?publish=yes
+Exemple Jointures Tableau : https://public.tableau.com/app/profile/jean.louis.manga/viz/Ex_JointuresTableau/JointuresTableau?publish=yes
