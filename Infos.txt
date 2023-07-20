@@ -1,0 +1,98 @@
+Comme tout autres languages de programmation Python a ce qu'on appelle des variables;
+ils sont en quelques sortes des conteneurs qui stockent des valeurs.
+Ex : x = 15 (x , est la variable et 15 la valeur)
+Pour connaitre le type d'une variable, il faut utiliser la fonction type(nom_variable)
+Ex : type(x) (Ce qui donne comme résultat int , parce que la valeur est de type integer - entier)
+--
+Pour créer une variable de type string 3 possibilités :
+prenom = 'Jean-Louis' (cote simple)
+prenom = "Jean-Louis" (cote double)
+prenom = """
+	Jean-Louis
+        """    (Les triples cotes sont utilisés pour des valeurs sur plusieurs lignes)
+Pour connaitre le type : 
+Ex : 
+type(prenom)
+str
+Pour concaténer 2 variables de type string , il suffit de rajouter le signe plus (+)
+Ex :
+prenom = 'Jean-Louis'
+nom = 'MANGA'
+prenom_nom = prenom + ' ' + nom
+Il est impossible de concaténer 2 variables de différents types de cette maniére (+)
+Pour ce faire , il faut plutot utiliser une virgule(,)
+Ex : 
+prenom = "Jean-Louis" //type str
+age = 38 //type int
+print(prenom+age) //donne une erreur
+print(prenom,age) // affiche : Jean-Louis 38
+
+--
+Une variable avec une virgule est de type float
+Ex:
+pi = 3.14
+print(type(pi))
+float
+Il est possible de faire l'addition d'une variable de type int et float , par contre le type du résultat 
+sera float.
+--
+Un tableau en python est une variable qui permet de stocker une liste de valeurs des différents types autorisés 
+sous python
+Ex :
+famille = ['Jean-Louis','Marie-Jeanne','Linecé','Albert',4]
+pour accéder à un éléments du tableau , il suffit de mettre son index.
+Les index dans un tableau commence tjrs par 0.
+premier_element = famille[0]
+print(premier_element) = 'Jean-Louis'
+Pour rajouter un élément au tableau , utiliser la fonction append()
+Ex:
+famille.append('Thies') //Rajoute la valeur 'Thies' à la fin du tableau
+Pour changer la valeur d'un élément d'un tableau , il suffit de le redéfinir avec 
+une autre valeur.
+Ex: 
+tableau[5] = 'Paris'
+Pour enlever un élément du tableau , utiliser la fonction : remove(indice_element)
+Ex :
+tableau.remove(5)
+
+Pour connaitre la taille d'un tableau (nbre d'éléments dans un tableau), len()
+Ex:
+tableau.len()
+--
+Les tuples
+Ces des objets python qui sont immuables , cad qu'on ne peut pas changer les éléments une fois que le tuples est 
+créer. Pour créer il faut juste mettre des parathèses.
+Ex : 
+mon_premier_tuple = (1, 2, 3, 4)
+comme pour les tableaux , les éléments d'un tuples sont accessibles grâce à leur index.
+Ex :
+print(mon_premier_tuple[2]) //Affiche le troisiéme élément d'un tuple
+Comme dit précédemment les fonctions telles que remove() ou apped() ne fonctionnent pas 
+sur un tuple parce qu'il est immuable.
+
+--
+les Sets
+ils ressembles au tableau mais on la particularité de ne pas affiché (print) de doublons et que les éléments 
+qui le composent ne sont pas accessibles via leur index comme pour les tableaux classiques.
+Ex:
+mon_set = {1,2,3,4}
+mon_set_2 = {3,2,5,6,8,9,10}
+On peut 2 sets
+print(mon_set | mon_set_2) //La barre permet de combiner les 2 sets en un seul et affiche tous les éléments sans doublons
+print(mon_set & mon_set_2) //Le signe '&' permet d'afficher les éléments en commun au niveau des 2 sets ==> INNER JOIN en SQL
+print(mon_set - mon_set_2) //Le signe '-' récupére les éléments du set de gauche et enléve les éléments du set de droite en commun pour ne garder que les éléments différents.
+print(mon_set ^ mon_set_2) //Ressort les éléments dans un set et pas dans l'autre
+--
+Les dictionnaires
+C'est un tableau de clé , valeur 
+Ex:
+dictionnaire = {'key':'value','prenom':'Jean-Louis','client':'ESCP','techno':['java','power bi','bi']}
+Pour avoir la clé du dictionnaire : dictionnaire.key()
+Pour les valeurs : dictionnaire.value()
+Pour récupérer la valeur d'une clé : dictionnaire['key']
+Pour les éléments : dictionnaire.items()
+Pour changer la valeur : dictionnaire['key']= 'nouvelle_valeur'
+on peut mettre à jour toutes les valeurs
+dictionnaire.update({'key':'value','prenom':'Jean-Louis','client':'Issy-les-moulineux'})
+Pour supprimer un élément d'un dictionnaire :
+del dictionnaire['key']
