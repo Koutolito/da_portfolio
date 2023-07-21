@@ -28,7 +28,7 @@ print(prenom+age) //donne une erreur
 print(prenom,age) // affiche : Jean-Louis 38
 
 --
-Une variable avec une virgule est de type float
+Une variable avec une virgule est de type float, bien évidemment la virgule est un . pas une ,
 Ex:
 pi = 3.14
 print(type(pi))
@@ -36,7 +36,7 @@ float
 Il est possible de faire l'addition d'une variable de type int et float , par contre le type du résultat 
 sera float.
 --
-Un tableau en python est une variable qui permet de stocker une liste de valeurs des différents types autorisés 
+Un tableau en python est une variable qui permet de stocker une liste de valeurs de différents types autorisés 
 sous python
 Ex :
 famille = ['Jean-Louis','Marie-Jeanne','Linecé','Albert',4]
@@ -60,19 +60,19 @@ Ex:
 tableau.len()
 --
 Les tuples
-Ces des objets python qui sont immuables , cad qu'on ne peut pas changer les éléments une fois que le tuples est 
+C'est des objets python qui sont immuables , cad qu'on ne peut pas changer les éléments une fois que le tuple est 
 créer. Pour créer il faut juste mettre des parathèses.
 Ex : 
 mon_premier_tuple = (1, 2, 3, 4)
-comme pour les tableaux , les éléments d'un tuples sont accessibles grâce à leur index.
+comme pour les tableaux , les éléments d'un tuple sont accessibles grâce à leur index.
 Ex :
 print(mon_premier_tuple[2]) //Affiche le troisiéme élément d'un tuple
-Comme dit précédemment les fonctions telles que remove() ou apped() ne fonctionnent pas 
+Comme dit précédemment les fonctions telles que remove() ou append() ne fonctionnent pas 
 sur un tuple parce qu'il est immuable.
 
 --
 les Sets
-ils ressembles au tableau mais on la particularité de ne pas affiché (print) de doublons et que les éléments 
+ils ressemblent au tableau mais on la particularité de ne pas affiché (print) de doublons et que les éléments 
 qui le composent ne sont pas accessibles via leur index comme pour les tableaux classiques.
 Ex:
 mon_set = {1,2,3,4}
